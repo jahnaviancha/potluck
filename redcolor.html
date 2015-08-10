@@ -1,28 +1,29 @@
 <html>
      <head>
      	<style type="text/css">
-     		div {
-     			border :1px solid green;
-     		}
-     	    /*.containor {
+     		.container {
      	    	border :1px solid red;
-     	    }*/
-     	    p {
-     	    	background-color: yellow;
-     	    	border :1px solid blue;
+               width :500px;
+               margin : 50px auto;
+               background-color : yellow;
+               padding: 10px;
      	    }
-     	    span {
-     	    	background-color:pink ;
-     	    }
+              .container > div {
+               /*margin : 50px;
+               padding : 50px;
+               border : 10px dotted black;*/
+               background-color : pink;
+               height :50px;
+               overflow: auto;  
+              }
      	</style>
      	  <body>
-     	  	<div class="containor">
-     	       <p> I am giving my page background color</p>
-     	       <div>I am writing text</div>
-     	       <div>I am writing code</div>
-     	       <div> I am changing my div color </div>
-     	        <span>border color</span>
+     	  	<div class="container">
+     	          <div>
+                         t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+                    </div>
      	    </div>  
      	  </body>    
      </head>
-</html>     	  
+</html>
